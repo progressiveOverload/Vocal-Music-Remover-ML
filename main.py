@@ -20,7 +20,8 @@ if uploaded_file is not None:
 
     # Perform vocal separation
     separator = Separator("spleeter:2stems")
-    separator.separate_to_file(input_file_path, "output")
+    with st.spinner("Separating vocals..."):
+        separator.separate_to_file(input_file_path, "output")
 
     # Display the separated files
     st.subheader("Separated Files")
