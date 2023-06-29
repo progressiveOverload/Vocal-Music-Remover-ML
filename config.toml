@@ -1,2 +1,2 @@
-[server]
+[global]
 maxUploadSize = 20971520  # 20 MB (in bytes)
