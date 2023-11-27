@@ -1,2 +1,2 @@
-# python_premium_projects
+# Vocal-Music-Remover-ML
 This project helps to seperate music and vocals
